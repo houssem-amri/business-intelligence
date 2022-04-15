@@ -115,13 +115,13 @@ export default function App() {
 
   const getRoutes = (allRoutes) =>
     allRoutes.map((route) => {
-      if (route.collapse) {
-        return getRoutes(route.collapse);
-      }
+        if (route.collapse) {
+          return getRoutes(route.collapse);
+        }
 
-      if (route.route) {
-        return <Route exact path={route.route} element={route.component} key={route.key} />;
-      }
+        if (route.route) {
+          return <Route exact path={route.route} element={route.component} key={route.key} />;
+        }
 
       return null;
     });
@@ -152,8 +152,34 @@ export default function App() {
 
   return direction === "rtl" ? (
     <UserContext.Provider value={valueUserContext}>
-    <CacheProvider value={rtlCache}>
-      <ThemeProvider theme={darkMode ? themeDarkRTL : themeRTL}>
+      <CacheProvider value={rtlCache}>
+        <ThemeProvider theme={darkMode ? themeDarkRTL : themeRTL}>
+          <CssBaseline />
+          {layout === "dashboard" && (
+            <>
+              <Sidenav
+                color={sidenavColor}
+                brand={(transparentSidenav && !darkMode) || whiteSidenav ? brandDark : brandWhite}
+                brandName="Material Dashboard 2"
+                routes={routes}
+                onMouseEnter={handleOnMouseEnter}
+                onMouseLeave={handleOnMouseLeave}
+              />
+              <Configurator />
+              {configsButton}
+            </>
+          )}
+          {layout === "vr" && <Configurator />}
+          <Routes>
+            {getRoutes(routes)}
+            <Route exact path="/" element={<SignIn />} />
+          </Routes>
+        </ThemeProvider>
+      </CacheProvider>
+    </UserContext.Provider>
+  ) : (
+    <UserContext.Provider value={valueUserContext}>
+      <ThemeProvider theme={darkMode ? themeDark : theme}>
         <CssBaseline />
         {layout === "dashboard" && (
           <>
@@ -172,37 +198,9 @@ export default function App() {
         {layout === "vr" && <Configurator />}
         <Routes>
           {getRoutes(routes)}
-          <Route exact path="/" element={<SignIn  />} />
-
+          <Route exact path="/" element={<SignIn />} />
         </Routes>
       </ThemeProvider>
-    </CacheProvider>
-    </UserContext.Provider>
-  ) : (
-    <UserContext.Provider value={valueUserContext}>
-    <ThemeProvider theme={darkMode ? themeDark : theme}>
-      <CssBaseline />
-      {layout === "dashboard" && (
-        <>
-          <Sidenav
-            color={sidenavColor}
-            brand={(transparentSidenav && !darkMode) || whiteSidenav ? brandDark : brandWhite}
-            brandName="Material Dashboard 2"
-            routes={routes}
-            onMouseEnter={handleOnMouseEnter}
-            onMouseLeave={handleOnMouseLeave}
-          />
-          <Configurator />
-          {configsButton}
-        </>
-      )}
-      {layout === "vr" && <Configurator />}
-      <Routes>
-        {getRoutes(routes)}
-        <Route exact path="/" element={<SignIn  />} />
-
-      </Routes>
-    </ThemeProvider>
     </UserContext.Provider>
   );
 }

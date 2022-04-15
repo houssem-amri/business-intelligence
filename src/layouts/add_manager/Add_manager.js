@@ -12,13 +12,14 @@ import MDButton from "components/MDButton";
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 // Data
 
 export default function Add_manager() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPwd] = useState("");
-
+let navigate=useNavigate()
   const handleSubmit = () => {
     let data = {
       name: name,
@@ -30,6 +31,7 @@ export default function Add_manager() {
       .post("http://localhost:3200/api/ajouter_Manager", data)
       .then((res) => {
         console.log(res.data.message);
+        navigate("/tables")
       })
       .catch((err) => console.log(err));
   };
