@@ -13,7 +13,7 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useContext } from "react";
 
 // react-router components
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
@@ -54,6 +54,7 @@ import brandWhite from "assets/images/logo-ct.png";
 import brandDark from "assets/images/logo-ct-dark.png";
 import SignIn from "layouts/authentication/sign-in";
 import UserContext from "User_contex";
+import Add_manager from "layouts/add_manager/Add_manager";
 
 export default function App() {
   const [controller, dispatch] = useMaterialUIController();
@@ -70,7 +71,8 @@ export default function App() {
   const [onMouseEnter, setOnMouseEnter] = useState(false);
   const [rtlCache, setRtlCache] = useState(null);
   const { pathname } = useLocation();
-  const [CurrentUser, setCurrentUser] = useState("");
+  const { CurrentUser, setCurrentUser } = useContext(UserContext);
+
   const valueUserContext = { CurrentUser, setCurrentUser };
 
   // Cache for the rtl
@@ -115,13 +117,13 @@ export default function App() {
 
   const getRoutes = (allRoutes) =>
     allRoutes.map((route) => {
-        if (route.collapse) {
-          return getRoutes(route.collapse);
-        }
+      if (route.collapse) {
+        return getRoutes(route.collapse);
+      }
 
-        if (route.route) {
-          return <Route exact path={route.route} element={route.component} key={route.key} />;
-        }
+      if (route.route) {
+        return <Route exact path={route.route} element={route.component} key={route.key} />;
+      }
 
       return null;
     });
@@ -171,8 +173,14 @@ export default function App() {
           )}
           {layout === "vr" && <Configurator />}
           <Routes>
+          <Route  path="/Edit_manager/:id" element={<Add_manager />} />
+
             {getRoutes(routes)}
+            {CurrentUser.role === undefined ? (
             <Route exact path="/" element={<SignIn />} />
+          ) : (
+            <Route path="*" element={<Navigate to="/dashboard" />} />
+          )}
           </Routes>
         </ThemeProvider>
       </CacheProvider>
@@ -198,7 +206,13 @@ export default function App() {
         {layout === "vr" && <Configurator />}
         <Routes>
           {getRoutes(routes)}
-          <Route exact path="/" element={<SignIn />} />
+          <Route  path="/Edit_manager/:id" element={<Add_manager />} />
+
+          {CurrentUser.role === undefined ? (
+            <Route exact path="/" element={<SignIn />} />
+          ) : (
+            <Route path="*" element={<Navigate to="/dashboard" />} />
+          )}
         </Routes>
       </ThemeProvider>
     </UserContext.Provider>

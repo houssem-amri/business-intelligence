@@ -70,7 +70,6 @@ router.delete("/delete_Manager/:id", (req, res) => {
 });
 
 router.post("/login", (req, res) => {
-  console.log("feeeeeeeeeeeee",req.body);
   Users.findOne({ email: req.body.email })
     .then((findedUser) => {
       if (!findedUser) {

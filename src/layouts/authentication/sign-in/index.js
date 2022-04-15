@@ -46,6 +46,7 @@ function Basic() {
       .then((res) => {
         if (res.data.message === "2") {
           setCurrentUser(res.data.user);
+          localStorage.setItem("connected_user", JSON.stringify(res.data.user));
           navigate("/dashboard");
         }
       })

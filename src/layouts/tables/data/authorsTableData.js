@@ -10,10 +10,12 @@ import team2 from "assets/images/team-2.jpg";
 import team3 from "assets/images/team-3.jpg";
 import team4 from "assets/images/team-4.jpg";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 export default function Data() {
   const [manager, setManager] = useState([]);
 
+  let navigate=useNavigate()
   useEffect(() => {
     getAllManeger();
   }, []);
@@ -62,7 +64,7 @@ export default function Data() {
           </MDTypography>
         ),
         edit: (
-          <MDTypography component="a" href="#" variant="caption" color="info" fontWeight="medium">
+          <MDTypography component="a" href="#" onClick={()=>EditManger(manager[i]._id)} variant="caption" color="info" fontWeight="medium">
             Edit
           </MDTypography>
         ),
@@ -86,6 +88,9 @@ export default function Data() {
 
       )    })
     .catch((err) => console.log(err));
+  }
+  const EditManger=(Id)=>{
+    navigate("/Edit_manager/"+Id)
   }
   return {
     columns: [

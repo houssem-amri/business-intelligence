@@ -67,6 +67,7 @@ const routes = [
     route: "/tables",
     component: <Tables />,
   },
+  
   {
     type: "collapse",
     name: "Ajouter Manager",
@@ -74,7 +75,7 @@ const routes = [
     icon: <Icon fontSize="small">add_view</Icon>,
     route: "/Add_manager",
     component: <Add_manager />,
-  },
+  }
   // {
   //   type: "collapse",
   //   name: "Billing",

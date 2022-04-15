@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 
@@ -12,29 +12,67 @@ import MDButton from "components/MDButton";
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 // Data
 
 export default function Add_manager() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPwd] = useState("");
-let navigate=useNavigate()
+  let navigate = useNavigate();
+  let param = useParams();
+
+  
+  useEffect(() => {
+    if (param.id) {
+      GetmanagerById();
+    }
+  }, []);
+
   const handleSubmit = () => {
-    let data = {
-      name: name,
-      email: email,
-      password: password,
-      role: "manager",
-    };
+    let data = {};
+    if (param.id) {
+      data = {
+        _id: param.id,
+        name: name,
+        email: email,
+        password: password,
+        role: "manager",
+      };
+      axios
+        .put("http://localhost:3200/api/Update_Manager", data)
+        .then((res) => {
+          navigate("/tables");
+        })
+        .catch((err) => console.log(err));
+    } else {
+      data = {
+        name: name,
+        email: email,
+        password: password,
+        role: "manager",
+      };
+      axios
+        .post("http://localhost:3200/api/ajouter_Manager", data)
+        .then((res) => {
+          console.log(res.data.message);
+          navigate("/tables");
+        })
+        .catch((err) => console.log(err));
+    }
+  };
+
+  const GetmanagerById = () => {
     axios
-      .post("http://localhost:3200/api/ajouter_Manager", data)
+      .get(`http://localhost:3200/api/get_Manager_byId/${param.id}`)
       .then((res) => {
-        console.log(res.data.message);
-        navigate("/tables")
+        setName(res.data.manager.name);
+        setEmail(res.data.manager.email);
+        setPwd(res.data.manager.password);
       })
       .catch((err) => console.log(err));
   };
+
   return (
     <DashboardLayout>
       <DashboardNavbar />
@@ -53,7 +91,7 @@ let navigate=useNavigate()
                 coloredShadow="info"
               >
                 <MDTypography variant="h6" color="white">
-                  Ajouter Manager
+                  {param.id ? "Modifier" : "Ajouter"} Manager
                 </MDTypography>
               </MDBox>
               <MDBox pt={4} pb={3} px={3}>
@@ -65,6 +103,7 @@ let navigate=useNavigate()
                       label="Name"
                       variant="standard"
                       fullWidth
+                      value={name}
                     />
                   </MDBox>
                   <MDBox mb={2}>
@@ -74,6 +113,7 @@ let navigate=useNavigate()
                       label="Email"
                       variant="standard"
                       fullWidth
+                      value={email}
                     />
                   </MDBox>
                   <MDBox mb={2}>
@@ -83,6 +123,7 @@ let navigate=useNavigate()
                       label="Password"
                       variant="standard"
                       fullWidth
+                      value={password}
                     />
                   </MDBox>
 
