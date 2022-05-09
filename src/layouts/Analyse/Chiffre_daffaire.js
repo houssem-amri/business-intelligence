@@ -477,7 +477,7 @@ export default function Chiffre_daffaire() {
                 coloredShadow="info"
               >
                 <MDTypography variant="h6" color="white">
-                  Table Charge variable
+                  Table Chiffre d'affaire
                 </MDTypography>
               </MDBox>
               <MDBox pt={4} pb={3} px={3}>
