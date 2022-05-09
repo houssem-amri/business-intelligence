@@ -12,6 +12,8 @@ mongoose.connect('mongodb://localhost:27017/business_intelligenceDB', { useNewUr
 
 
 var UserRouter = require("./Routes/users");
+var chiffre_daffaireRouter = require("./Routes/chiffre_daffaire");
+var charge_variableRouter = require("./Routes/charge_variable");
 
 
 
@@ -27,5 +29,7 @@ app.use((req, res, next) => {
 });
 
 app.use("/api", UserRouter);
+app.use("/api", chiffre_daffaireRouter);
+app.use("/api", charge_variableRouter);
 
 module.exports = app

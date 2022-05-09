@@ -44,10 +44,12 @@ import Notifications from "layouts/notifications";
 import Profile from "layouts/profile";
 import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
-
+import StackedBarChartIcon from '@mui/icons-material/StackedBarChart';
 // @mui icons
 import Icon from "@mui/material/Icon";
 import Add_manager from "layouts/add_manager/Add_manager";
+import Charge_variable from "layouts/Analyse/Charge_variable";
+import Chiffre_daffaire from "layouts/Analyse/Chiffre_daffaire";
 
 const routes = [
  
@@ -75,7 +77,24 @@ const routes = [
     icon: <Icon fontSize="small">add_view</Icon>,
     route: "/Add_manager",
     component: <Add_manager />,
-  }
+  },
+ 
+  {
+    type: "collapse",
+    name: "Analyse charge variable",
+    key: "Charge_variable",
+    icon: <StackedBarChartIcon fontSize="small"></StackedBarChartIcon>,
+    route: "/Charge_variable",
+    component: <Charge_variable />,
+  },
+  {
+    type: "collapse",
+    name: "Analyse chiffre d'affaire",
+    key: "Chiffre_daffaire",
+    icon: <StackedBarChartIcon fontSize="small"></StackedBarChartIcon>,
+    route: "/Chiffre_daffaire",
+    component: <Chiffre_daffaire />,
+  },
   // {
   //   type: "collapse",
   //   name: "Billing",

@@ -1,0 +1,307 @@
+[
+    {
+     "Date": "03\/01\/2022",
+     "nom_variable": "matiéres premiéres(frais fournisseurs)",
+     "Cout": 2500
+    },
+    {
+     "Date": "03\/02\/2022",
+     "nom_variable": "distribution",
+     "Cout": 1500
+    },
+    {
+     "Date": "03\/03\/2022",
+     "nom_variable": "commissions",
+     "Cout": 4530
+    },
+    {
+     "Date": "03\/04\/2022",
+     "nom_variable": "paiement de vos sous-traitants",
+     "Cout": 8620
+    },
+    {
+     "Date": "03\/05\/2022",
+     "nom_variable": "la part variable des salaires",
+     "Cout": 78956
+    },
+    {
+     "Date": "03\/06\/2022",
+     "nom_variable": "frais logistiques",
+     "Cout": 1523
+    },
+    {
+     "Date": "03\/07\/2022",
+     "nom_variable": "frais de déplacement",
+     "Cout": 15620
+    },
+    {
+     "Date": "03\/08\/2022",
+     "nom_variable": "paiement de vos sous-traitants",
+     "Cout": 45620
+    },
+    {
+     "Date": "03\/09\/2022",
+     "nom_variable": "la part variable des salaires",
+     "Cout": 789520
+    },
+    {
+     "Date": "03\/10\/2022",
+     "nom_variable": "frais logistiques",
+     "Cout": 6530
+    },
+    {
+     "Date": "03\/11\/2022",
+     "nom_variable": "frais de déplacement",
+     "Cout": 7985
+    },
+    {
+     "Date": "03\/12\/2022",
+     "nom_variable": "matiéres premiéres(frais fournisseurs)",
+     "Cout": 1500
+    },
+    {
+     "Date": "03\/13\/2022",
+     "nom_variable": "distribution",
+     "Cout": 1600
+    },
+    {
+     "Date": "03\/14\/2022",
+     "nom_variable": "commissions",
+     "Cout": 1200
+    },
+    {
+     "Date": "03\/15\/2022",
+     "nom_variable": "paiement de vos sous-traitants",
+     "Cout": 2500
+    },
+    {
+     "Date": "03\/16\/2022",
+     "nom_variable": "la part variable des salaires",
+     "Cout": 3500
+    },
+    {
+     "Date": "03\/17\/2022",
+     "nom_variable": "frais logistiques",
+     "Cout": 6500
+    },
+    {
+     "Date": "03\/18\/2022",
+     "nom_variable": "frais de déplacement",
+     "Cout": 7500
+    },
+    {
+     "Date": "03\/19\/2022",
+     "nom_variable": "paiement de vos sous-traitants",
+     "Cout": 10500
+    },
+    {
+     "Date": "03\/20\/2022",
+     "nom_variable": "la part variable des salaires",
+     "Cout": 6500
+    },
+    {
+     "Date": "03\/21\/2022",
+     "nom_variable": "frais logistiques",
+     "Cout": 98560
+    },
+    {
+     "Date": "03\/22\/2022",
+     "nom_variable": "frais de déplacement",
+     "Cout": 75862
+    },
+    {
+     "Date": "03\/23\/2022",
+     "nom_variable": "frais logistiques",
+     "Cout": 65230
+    },
+    {
+     "Date": "03\/24\/2022",
+     "nom_variable": "frais de déplacement",
+     "Cout": 78950
+    },
+    {
+     "Date": "03\/25\/2022",
+     "nom_variable": "paiement de vos sous-traitants",
+     "Cout": 4526
+    },
+    {
+     "Date": "03\/26\/2022",
+     "nom_variable": "la part variable des salaires",
+     "Cout": 15642
+    },
+    {
+     "Date": "03\/27\/2022",
+     "nom_variable": "frais logistiques",
+     "Cout": 87945
+    },
+    {
+     "Date": "03\/28\/2022",
+     "nom_variable": "frais de déplacement",
+     "Cout": 872246
+    },
+    {
+     "Date": "03\/29\/2022",
+     "nom_variable": "paiement de vos sous-traitants",
+     "Cout": 1500
+    },
+    {
+     "Date": "03\/30\/2022",
+     "nom_variable": "la part variable des salaires",
+     "Cout": 1700
+    },
+    {
+     "Date": "03\/31\/2022",
+     "nom_variable": "frais logistiques",
+     "Cout": 2800
+    },
+    {
+     "Date": "04\/01\/2022",
+     "nom_variable": "frais de déplacement",
+     "Cout": 2700
+    },
+    {
+     "Date": "04\/02\/2022",
+     "nom_variable": "paiement de vos sous-traitants",
+     "Cout": 2900
+    },
+    {
+     "Date": "04\/03\/2022",
+     "nom_variable": "la part variable des salaires",
+     "Cout": 3000
+    },
+    {
+     "Date": "04\/04\/2022",
+     "nom_variable": "frais logistiques",
+     "Cout": 3200
+    },
+    {
+     "Date": "04\/05\/2022",
+     "nom_variable": "frais de déplacement",
+     "Cout": 4500
+    },
+    {
+     "Date": "04\/06\/2022",
+     "nom_variable": "frais logistiques",
+     "Cout": 5500
+    },
+    {
+     "Date": "04\/07\/2022",
+     "nom_variable": "frais de déplacement",
+     "Cout": 2500
+    },
+    {
+     "Date": "04\/08\/2022",
+     "nom_variable": "paiement de vos sous-traitants",
+     "Cout": 3600
+    },
+    {
+     "Date": "04\/09\/2022",
+     "nom_variable": "la part variable des salaires",
+     "Cout": 3800
+    },
+    {
+     "Date": "04\/10\/2022",
+     "nom_variable": "la part variable des salaires",
+     "Cout": 4652
+    },
+    {
+     "Date": "04\/11\/2022",
+     "nom_variable": "frais logistiques",
+     "Cout": 3256
+    },
+    {
+     "Date": "04\/12\/2022",
+     "nom_variable": "frais de déplacement",
+     "Cout": 7895
+    },
+    {
+     "Date": "04\/13\/2022",
+     "nom_variable": "paiement de vos sous-traitants",
+     "Cout": 6895
+    },
+    {
+     "Date": "04\/14\/2022",
+     "nom_variable": "la part variable des salaires",
+     "Cout": 4685
+    },
+    {
+     "Date": "04\/15\/2022",
+     "nom_variable": "frais logistiques",
+     "Cout": 6352
+    },
+    {
+     "Date": "04\/16\/2022",
+     "nom_variable": "frais logistiques",
+     "Cout": 3215
+    },
+    {
+     "Date": "04\/17\/2022",
+     "nom_variable": "frais de déplacement",
+     "Cout": 6532
+    },
+    {
+     "Date": "04\/18\/2022",
+     "nom_variable": "paiement de vos sous-traitants",
+     "Cout": 3586
+    },
+    {
+     "Date": "04\/19\/2022",
+     "nom_variable": "la part variable des salaires",
+     "Cout": 7530
+    },
+    {
+     "Date": "04\/20\/2022",
+     "nom_variable": "frais logistiques",
+     "Cout": 1045
+    },
+    {
+     "Date": "04\/21\/2022",
+     "nom_variable": "frais de déplacement",
+     "Cout": 4055
+    },
+    {
+     "Date": "04\/22\/2022",
+     "nom_variable": "frais logistiques",
+     "Cout": 2033
+    },
+    {
+     "Date": "04\/23\/2022",
+     "nom_variable": "frais de déplacement",
+     "Cout": 2487
+    },
+    {
+     "Date": "04\/24\/2022",
+     "nom_variable": "paiement de vos sous-traitants",
+     "Cout": 12000
+    },
+    {
+     "Date": "04\/25\/2022",
+     "nom_variable": "la part variable des salaires",
+     "Cout": 7500
+    },
+    {
+     "Date": "04\/26\/2022",
+     "nom_variable": "la part variable des salaires",
+     "Cout": 6500
+    },
+    {
+     "Date": "04\/27\/2022",
+     "nom_variable": "frais logistiques",
+     "Cout": 8950
+    },
+    {
+     "Date": "04\/28\/2022",
+     "nom_variable": "frais de déplacement",
+     "Cout": 6300
+    },
+    {
+     "Date": "04\/29\/2022",
+     "nom_variable": "paiement de vos sous-traitants",
+     "Cout": 45230
+    },
+    {
+     "Date": "04\/30\/2022",
+     "nom_variable": "la part variable des salaires",
+     "Cout": 7522
+    }
+   ]

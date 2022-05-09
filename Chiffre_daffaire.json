@@ -1,0 +1,368 @@
+[
+    {
+     "Date": "03\/01\/2022",
+     "quantit_vendues": 2,
+     "prix_de_vente": 14.5,
+     "nom_de_produit": "Lait entier"
+    },
+    {
+     "Date": "03\/02\/2022",
+     "quantit_vendues": 12,
+     "prix_de_vente": 16.4,
+     "nom_de_produit": "Lait 1\/2 écrémé"
+    },
+    {
+     "Date": "03\/03\/2022",
+     "quantit_vendues": 15,
+     "prix_de_vente": 17.3,
+     "nom_de_produit": "Lait écrémé"
+    },
+    {
+     "Date": "03\/04\/2022",
+     "quantit_vendues": 20,
+     "prix_de_vente": 15.5,
+     "nom_de_produit": "Lait en poudre écrémé "
+    },
+    {
+     "Date": "03\/05\/2022",
+     "quantit_vendues": 30,
+     "prix_de_vente": 17.8,
+     "nom_de_produit": "Lait concentré entier non sucré"
+    },
+    {
+     "Date": "03\/06\/2022",
+     "quantit_vendues": 15,
+     "prix_de_vente": 18.6,
+     "nom_de_produit": "Lait concentrésucré"
+    },
+    {
+     "Date": "03\/07\/2022",
+     "quantit_vendues": 17,
+     "prix_de_vente": 19.9,
+     "nom_de_produit": "Yaourt nature"
+    },
+    {
+     "Date": "03\/08\/2022",
+     "quantit_vendues": 18,
+     "prix_de_vente": 21.2,
+     "nom_de_produit": "Fromage blanc à 40% MG"
+    },
+    {
+     "Date": "03\/09\/2022",
+     "quantit_vendues": 21,
+     "prix_de_vente": 20.6,
+     "nom_de_produit": "Fromage blanc à20% MG"
+    },
+    {
+     "Date": "03\/10\/2022",
+     "quantit_vendues": 50,
+     "prix_de_vente": 1200,
+     "nom_de_produit": "Fromage à pate molle:Camembert 45%  MG Munster"
+    },
+    {
+     "Date": "03\/11\/2022",
+     "quantit_vendues": 80,
+     "prix_de_vente": 1500,
+     "nom_de_produit": "Fromage persillés:Roquefort"
+    },
+    {
+     "Date": "03\/12\/2022",
+     "quantit_vendues": 90,
+     "prix_de_vente": 1600,
+     "nom_de_produit": "Fromage à pate pressée:Saint-Paulin"
+    },
+    {
+     "Date": "03\/13\/2022",
+     "quantit_vendues": 50,
+     "prix_de_vente": 1800,
+     "nom_de_produit": "Fromage à pate pressée:Emmantal"
+    },
+    {
+     "Date": "03\/14\/2022",
+     "quantit_vendues": 12,
+     "prix_de_vente": 2500,
+     "nom_de_produit": "Fromage à pate pressée:Fromage fondu"
+    },
+    {
+     "Date": "03\/15\/2022",
+     "quantit_vendues": 14,
+     "prix_de_vente": 1400,
+     "nom_de_produit": "Lait entier stérilisé"
+    },
+    {
+     "Date": "03\/16\/2022",
+     "quantit_vendues": 30,
+     "prix_de_vente": 1800,
+     "nom_de_produit": "Lait 1\/2 écrémé stérilisé"
+    },
+    {
+     "Date": "03\/17\/2022",
+     "quantit_vendues": 45,
+     "prix_de_vente": 2200,
+     "nom_de_produit": "Lait<<Croissance>> de candia"
+    },
+    {
+     "Date": "03\/18\/2022",
+     "quantit_vendues": 60,
+     "prix_de_vente": 14826,
+     "nom_de_produit": "Lait<<Future Maman>> candia"
+    },
+    {
+     "Date": "03\/19\/2022",
+     "quantit_vendues": 14,
+     "prix_de_vente": 21365,
+     "nom_de_produit": "Lait<<Pour Maman>> Gervais"
+    },
+    {
+     "Date": "03\/20\/2022",
+     "quantit_vendues": 10,
+     "prix_de_vente": 28413,
+     "nom_de_produit": "Beurre"
+    },
+    {
+     "Date": "03\/21\/2022",
+     "quantit_vendues": 30,
+     "prix_de_vente": 50052,
+     "nom_de_produit": "Créme"
+    },
+    {
+     "Date": "03\/22\/2022",
+     "quantit_vendues": 40,
+     "prix_de_vente": 78630,
+     "nom_de_produit": "Saindoux"
+    },
+    {
+     "Date": "03\/23\/2022",
+     "quantit_vendues": 50,
+     "prix_de_vente": 100254,
+     "nom_de_produit": "Graisse d'oie"
+    },
+    {
+     "Date": "03\/24\/2022",
+     "quantit_vendues": 60,
+     "prix_de_vente": 136642,
+     "nom_de_produit": "Végétaline"
+    },
+    {
+     "Date": "03\/25\/2022",
+     "quantit_vendues": 70,
+     "prix_de_vente": 157274,
+     "nom_de_produit": "Margarine"
+    },
+    {
+     "Date": "03\/26\/2022",
+     "quantit_vendues": 80,
+     "prix_de_vente": 71822,
+     "nom_de_produit": "Poulet"
+    },
+    {
+     "Date": "03\/27\/2022",
+     "quantit_vendues": 90,
+     "prix_de_vente": 51346,
+     "nom_de_produit": "Margarines mais"
+    },
+    {
+     "Date": "03\/28\/2022",
+     "quantit_vendues": 100,
+     "prix_de_vente": 1234,
+     "nom_de_produit": "Dinde"
+    },
+    {
+     "Date": "03\/29\/2022",
+     "quantit_vendues": 18,
+     "prix_de_vente": 7820,
+     "nom_de_produit": "Thon au naturel"
+    },
+    {
+     "Date": "03\/30\/2022",
+     "quantit_vendues": 1500,
+     "prix_de_vente": 20000,
+     "nom_de_produit": "Sardine"
+    },
+    {
+     "Date": "03\/31\/2022",
+     "quantit_vendues": 2500,
+     "prix_de_vente": 30000,
+     "nom_de_produit": "Saumon"
+    },
+    {
+     "Date": "04\/01\/2022",
+     "quantit_vendues": 500,
+     "prix_de_vente": 1200,
+     "nom_de_produit": "Beurre"
+    },
+    {
+     "Date": "04\/02\/2022",
+     "quantit_vendues": 8600,
+     "prix_de_vente": 500,
+     "nom_de_produit": "Graisse d'oie"
+    },
+    {
+     "Date": "04\/03\/2022",
+     "quantit_vendues": 1200,
+     "prix_de_vente": 4000,
+     "nom_de_produit": "Poulet"
+    },
+    {
+     "Date": "04\/04\/2022",
+     "quantit_vendues": 600,
+     "prix_de_vente": 1200,
+     "nom_de_produit": "Lait<<Pour Maman>> Gervais"
+    },
+    {
+     "Date": "04\/05\/2022",
+     "quantit_vendues": 400,
+     "prix_de_vente": 15820,
+     "nom_de_produit": "Lait<<Pour Maman>> Gervais"
+    },
+    {
+     "Date": "04\/06\/2022",
+     "quantit_vendues": 1800,
+     "prix_de_vente": 46520,
+     "nom_de_produit": "Fromage à pate pressée:Saint-Paulin"
+    },
+    {
+     "Date": "04\/07\/2022",
+     "quantit_vendues": 5000,
+     "prix_de_vente": 7895,
+     "nom_de_produit": "Fromage à pate pressée:Emmantal"
+    },
+    {
+     "Date": "04\/08\/2022",
+     "quantit_vendues": 4000,
+     "prix_de_vente": 1245,
+     "nom_de_produit": "Fromage à pate pressée:Fromage fondu"
+    },
+    {
+     "Date": "04\/09\/2022",
+     "quantit_vendues": 5300,
+     "prix_de_vente": 2631,
+     "nom_de_produit": "Lait entier stérilisé"
+    },
+    {
+     "Date": "04\/10\/2022",
+     "quantit_vendues": 9000,
+     "prix_de_vente": 4567,
+     "nom_de_produit": "Lait 1\/2 écrémé stérilisé"
+    },
+    {
+     "Date": "04\/11\/2022",
+     "quantit_vendues": 10000,
+     "prix_de_vente": 1230,
+     "nom_de_produit": "Lait entier"
+    },
+    {
+     "Date": "04\/12\/2022",
+     "quantit_vendues": 12000,
+     "prix_de_vente": 800,
+     "nom_de_produit": "Lait 1\/2 écrémé"
+    },
+    {
+     "Date": "04\/13\/2022",
+     "quantit_vendues": 6250,
+     "prix_de_vente": 1500,
+     "nom_de_produit": "Lait écrémé"
+    },
+    {
+     "Date": "04\/14\/2022",
+     "quantit_vendues": 350,
+     "prix_de_vente": 5000,
+     "nom_de_produit": "Lait en poudre écrémé "
+    },
+    {
+     "Date": "04\/15\/2022",
+     "quantit_vendues": 960,
+     "prix_de_vente": 10000,
+     "nom_de_produit": "Lait concentré entier non sucré"
+    },
+    {
+     "Date": "04\/16\/2022",
+     "quantit_vendues": 756,
+     "prix_de_vente": 60000,
+     "nom_de_produit": "Lait concentrésucré"
+    },
+    {
+     "Date": "04\/17\/2022",
+     "quantit_vendues": 1234,
+     "prix_de_vente": 70000,
+     "nom_de_produit": "Lait entier"
+    },
+    {
+     "Date": "04\/18\/2022",
+     "quantit_vendues": 5689,
+     "prix_de_vente": 12345,
+     "nom_de_produit": "Lait 1\/2 écrémé"
+    },
+    {
+     "Date": "04\/19\/2022",
+     "quantit_vendues": 1245,
+     "prix_de_vente": 500,
+     "nom_de_produit": "Lait écrémé"
+    },
+    {
+     "Date": "04\/20\/2022",
+     "quantit_vendues": 50,
+     "prix_de_vente": 700,
+     "nom_de_produit": "Lait en poudre écrémé "
+    },
+    {
+     "Date": "04\/21\/2022",
+     "quantit_vendues": 40,
+     "prix_de_vente": 800,
+     "nom_de_produit": "Lait concentré entier non sucré"
+    },
+    {
+     "Date": "04\/22\/2022",
+     "quantit_vendues": 30,
+     "prix_de_vente": 900,
+     "nom_de_produit": "Lait concentrésucré"
+    },
+    {
+     "Date": "04\/23\/2022",
+     "quantit_vendues": 90,
+     "prix_de_vente": 850,
+     "nom_de_produit": "Yaourt nature"
+    },
+    {
+     "Date": "04\/24\/2022",
+     "quantit_vendues": 1200,
+     "prix_de_vente": 450,
+     "nom_de_produit": "Fromage blanc à 40% MG"
+    },
+    {
+     "Date": "04\/25\/2022",
+     "quantit_vendues": 1500,
+     "prix_de_vente": 6320,
+     "nom_de_produit": "Fromage blanc à20% MG"
+    },
+    {
+     "Date": "04\/26\/2022",
+     "quantit_vendues": 7000,
+     "prix_de_vente": 780,
+     "nom_de_produit": "Fromage à pate molle:Camembert 45%  MG Munster"
+    },
+    {
+     "Date": "04\/27\/2022",
+     "quantit_vendues": 6000,
+     "prix_de_vente": 950,
+     "nom_de_produit": "Fromage persillés:Roquefort"
+    },
+    {
+     "Date": "04\/28\/2022",
+     "quantit_vendues": 4500,
+     "prix_de_vente": 630,
+     "nom_de_produit": "Fromage à pate pressée:Saint-Paulin"
+    },
+    {
+     "Date": "04\/29\/2022",
+     "quantit_vendues": 50,
+     "prix_de_vente": 7852,
+     "nom_de_produit": "Sardine"
+    },
+    {
+     "Date": "04\/30\/2022",
+     "quantit_vendues": 1200,
+     "prix_de_vente": 2500,
+     "nom_de_produit": "Sardine"
+    }
+   ]
